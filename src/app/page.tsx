@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { ConnectButton } from "thirdweb/react";
-import thirdwebIcon from "@public/thirdweb.svg";
+import thirdwebIcon from "@public/brownwatersproductions Complete.svg";
 import { client } from "./client";
 
 export default function Home() {
@@ -15,8 +15,8 @@ export default function Home() {
           <ConnectButton
             client={client}
             appMetadata={{
-              name: "Example App",
-              url: "https://example.com",
+              name: Brown Waters DAO App",
+              url: "brownwaters.eth.limo",
             }}
           />
         </div>
@@ -40,17 +40,17 @@ function Header() {
       />
 
       <h1 className="text-2xl md:text-6xl font-semibold md:font-bold tracking-tighter mb-6 text-zinc-100">
-        thirdweb SDK
-        <span className="text-zinc-300 inline-block mx-1"> + </span>
-        <span className="inline-block -skew-x-6 text-blue-500"> Next.js </span>
+        Welcome to 
+        <span className="text-zinc-300 inline-block mx-1"> Brown Waters </span>
+        <span className="inline-block -skew-x-6 text-blue-500"> DAO </span>
       </h1>
 
       <p className="text-zinc-300 text-base">
-        Read the{" "}
+        Home of{" "}
         <code className="bg-zinc-800 text-zinc-300 px-2 rounded py-1 text-sm mx-1">
-          README.md
+          Brownie Points
         </code>{" "}
-        file to get started.
+        $BWP Ecosystem.
       </p>
     </header>
   );
@@ -60,21 +60,21 @@ function ThirdwebResources() {
   return (
     <div className="grid gap-4 lg:grid-cols-3 justify-center">
       <ArticleCard
-        title="thirdweb SDK Docs"
-        href="https://portal.thirdweb.com/typescript/v5"
-        description="thirdweb TypeScript SDK documentation"
+        title="Join the community and get even more benefits plus networking"
+        href="https://discord.gg/qETmz5MpQ3"
+        description="Brown Water Dao Discord Server"
       />
 
       <ArticleCard
-        title="Components and Hooks"
-        href="https://portal.thirdweb.com/typescript/v5/react"
-        description="Learn about the thirdweb React components and hooks in thirdweb SDK"
+        title="Youtube Channel"
+        href="https://www.youtube.com/@brownwaters"
+        description="Catch up on Brown Waters Content"
       />
 
       <ArticleCard
-        title="thirdweb Dashboard"
-        href="https://thirdweb.com/dashboard"
-        description="Deploy, configure, and manage your smart contracts from the dashboard."
+        title="Linktree"
+        href="https://linktr.ee/brownwatersdao"
+        description="Official linktree"
       />
     </div>
   );
